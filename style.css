@@ -40,7 +40,7 @@ h1 {
 
 .character {
   list-style-type: none;
-  background-color: #eaeaea;
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 3px;
   padding: 10px 20px;
   display: grid;
@@ -67,6 +67,7 @@ h1 {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  border-radius: 70%;
 }
 
 #searchBar {
@@ -110,4 +111,29 @@ button:hover {
 
 #sortByNumber {
   background-color: #e2e8ea; /* Red */
+}
+nav {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
