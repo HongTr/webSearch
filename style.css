@@ -68,8 +68,12 @@ h1 {
   height: 200px;
   object-fit: cover;
   border-radius: 70%;
+  transition: transform 0.2s ease-in-out;
 }
 
+.character > img:hover {
+  transform: scale(1.05);
+}
 #searchBar {
   width: 100%;
   height: 32px;
